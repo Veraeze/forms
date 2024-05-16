@@ -1,0 +1,91 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    /* grid-template-columns: repeat(4, 10%);
+    grid-template-rows: repeat(4, 20%); */
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+#header1, #header2, #header3, #header4, #header5, #header6, #header7, #header8, #header9, #header10,  #header11, #header12, #header13, #header14, #header15, #header16{
+    width: 300px;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+#header1{
+    background-color: blue;
+}
+
+#header2{
+    background-color: greenyellow;
+}
+
+#header3{
+    background-color: rgba(163, 15, 15);
+}
+
+#header4{
+    background-color: darkred;
+}
+
+#header5{
+    background-color: yellow;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+#header6{
+    background-color: purple;
+}
+
+#header7{
+    background-color: black;
+}
+
+#header8{
+    background-color: pink;
+}
+
+#header9{
+    background-color: gray;
+}
+
+#header10{
+    background-color: rgb(9, 143, 221);
+    animation: circle 20s 2s 1s;
+}
+
+#header11{
+    background-color: rgb(71, 104, 88);
+}
+
+#header12{
+    background-color: rgb(110, 117, 14);
+}
+
+#header13{
+    background-color: rgb(7, 85, 33);
+}
+
+#header14{
+    background-color: rgb(5, 35, 53);
+}
+
+#header15{
+    background-color: rgb(165, 135, 139);
+}
+
+#header16{
+    background-color: rgb(27, 14, 85);
+}
+
+
+
+@keyframes circle {
+    0%   {background-color: aqua;}
+    50%  {background-color: red;}
+}
